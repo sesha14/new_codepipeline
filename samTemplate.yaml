@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.6
-      CodeUri: ./lf1
+      CodeUri: arn:aws:s3:::l11
       Description: 'Lambda function for index'
       MemorySize: 128
       Timeout: 30
