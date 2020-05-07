@@ -27,7 +27,7 @@ Resources:
       Timeout: 30
       Role: 'arn:aws:iam::655233070650:role/service-role/search-photos-role-aeo75sag'
       Events:
-        AI Photo Search:
+        AIPhotoSearch:
           Type: Api
           Properties:
             Path: /search
